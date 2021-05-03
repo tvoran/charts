@@ -34,4 +34,21 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/repo/releases/download/anikifor-demo-helm-demo2-0.1.0/anikifor-demo-helm-demo2-0.1.0.tgz
     version: 0.1.0
-generated: '2021-04-28T12:33:01.738421+00:00'
+  atiwary-containers-helm-test-project-github:
+  - annotations:
+      helm-chart.openshift.io/digest: sha256:103755a063988ec008d7ac05ff3ef3063f68abe6f27b52ee3f43a8d56c6bb592
+      helm-chart.openshift.io/lastCertifiedTimestamp: 2021-04-22 10:49:29.714918174
+        +0000 UTC m=+1.932279870
+      helm-chart.openshift.io/providerType: partner
+      helm-chart.openshift.io/submissionTimestamp: '2021-05-03T14:01:32.254793+00:00'
+    apiVersion: v2
+    appVersion: 1.16.0
+    description: A Helm chart for Kubernetes
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: 1.20.0
+    name: helm-test-project-github
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/repo/releases/download/atiwary-containers-helm-test-project-github-0.1.0/atiwary-containers-helm-test-project-github-0.1.0.tgz
+    version: 0.1.0
+generated: '2021-05-03T14:01:32.254793+00:00'
