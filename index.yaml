@@ -51,4 +51,21 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/repo/releases/download/atiwary-containers-helm-test-project-github-0.1.0/atiwary-containers-helm-test-project-github-0.1.0.tgz
     version: 0.1.0
-generated: '2021-05-03T14:01:32.254793+00:00'
+  atiwary-containers-tests-external:
+  - annotations:
+      helm-chart.openshift.io/digest: sha256:f69c996ad0b4f18d2aa14591e9f2071da30aa31a562a7daad6944a57e34c2687
+      helm-chart.openshift.io/lastCertifiedTimestamp: 2021-04-22 10:49:29.714918174
+        +0000 UTC m=+1.932279870
+      helm-chart.openshift.io/providerType: partner
+      helm-chart.openshift.io/submissionTimestamp: '2021-05-05T13:53:05.866124+00:00'
+    apiVersion: v2
+    appVersion: 1.16.0
+    description: A Helm chart for Kubernetes
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: 1.20.0
+    name: tests-external
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/charts/releases/download/atiwary-containers-tests-external-0.1.0/atiwary-containers-tests-external-0.1.0.tgz
+    version: 0.1.0
+generated: '2021-05-05T13:53:05.866124+00:00'
